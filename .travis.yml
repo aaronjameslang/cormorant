@@ -20,3 +20,4 @@ addons:
 env:
   - TESSDATA_PREFIX=/usr/share/tesseract
   - TESSDATA_PREFIX=/usr/local/share/tesseract
+  - TESSDATA_PREFIX=/usr/share/tesseract-ocr
