@@ -6,10 +6,17 @@ scala:
 os:
   - linux
   - osx
+group:
+  - travis_lts
+  - travis_latest
+
 matrix:
   fast_finish: true
   allow_failures:
     - os: osx
+    - group: travis_latest
+
+# Tesseract
 
 addons:
   apt:
