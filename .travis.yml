@@ -16,5 +16,4 @@ language: scala
 addons:
   apt:
     packages:
-     #- tesseract-ocr
-      - libtesseract3
+      - tesseract-ocr
