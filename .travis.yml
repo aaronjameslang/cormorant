@@ -17,3 +17,6 @@ addons:
   apt:
     packages:
       - tesseract-ocr
+env:
+  - TESSDATA_PREFIX=/usr/share/tesseract
+  - TESSDATA_PREFIX=/usr/local/share/tesseract
