@@ -10,3 +10,9 @@ jdk:
 os:
   - linux
   - osx
+
+addons:
+  apt:
+    packages:
+     #- tesseract-ocr
+      - libtesseract3
